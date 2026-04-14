@@ -8,6 +8,5 @@ test('login the page', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Password' }).fill('P@ssw0rdP@ssw0rd');
   await page.getByRole('button', { name: 'Sign In' }).click();
   await page.getByRole('button', { name: 'Verify & Login' }).click();
-    await page.getByRole('button', { name: 'Verify & Login' }).click();
 
 });
